@@ -24,6 +24,25 @@ $(call inherit-product, device/oplus/denniz/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# RisingOS Flags
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_HAS_UDFPS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_PREBUILT_PIXEL_LAUNCHER := true
+PRODUCT_NO_CAMERA := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Inherit RisingOS configurations.
+RISING_MAINTAINER := Liwhy
+
+# Add Official Stuff
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="MediaTek Dimensity 1200" \
+    RISING_MAINTAINER="Liwhy"
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_denniz
 PRODUCT_DEVICE := denniz
