@@ -5,6 +5,12 @@
 
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">true</bool>
+	
+	<!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+	
+	 <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/voocchg_ing</string>
 
     <!-- The location of the devices physical tri state switch
          0: Left side
