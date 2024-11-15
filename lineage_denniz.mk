@@ -26,21 +26,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS Flags
 RISING_BUILDTYPE := UNOFFICIAL
-WITH_GMS := true
-TARGET_CORE_GMS := true
+RISING_MAINTAINER := Liwhy
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
-TARGET_USE_GOOGLE_TELEPHONY := true
-TARGET_PREBUILT_PIXEL_LAUNCHER := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
-PRODUCT_NO_CAMERA := false
+PRODUCT_NO_CAMERA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
 
-# Inherit RisingOS configurations.
-RISING_MAINTAINER := Liwhy
-
-# Add Official Stuff
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="MediaTek Dimensity 1200" \
     RisingMaintainer="Liwhy"
