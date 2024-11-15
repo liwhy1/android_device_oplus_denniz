@@ -5,4 +5,11 @@
     "branch": "lineage-21",
     "remote": "github"
   }
+  
+  {
+    "repository": "nattolecats/android_vendor_oneplus_denniz-firmware",
+    "target_path": "vendor/oplus/denniz-firmware",
+    "branch": "udc",
+    "remote": "gitlab"
+  }
 ]
