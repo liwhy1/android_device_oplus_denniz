@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVICE=mt6893-common
+DEVICE=denniz
 VENDOR=oplus
 
 export originalPath=$(pwd)/device/$VENDOR/$DEVICE/patches/
