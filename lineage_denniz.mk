@@ -25,13 +25,12 @@ $(call inherit-product, device/oplus/denniz/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS Flags
-RISING_BUILDTYPE := UNOFFICIAL
-RISING_MAINTAINER := Liwhy
+RISING_MAINTAINER = Liwhy
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-PRODUCT_NO_CAMERA := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GMS := true
 TARGET_CORE_GMS := true
