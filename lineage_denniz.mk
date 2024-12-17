@@ -25,18 +25,19 @@ $(call inherit-product, device/oplus/denniz/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS Flags
-RISING_MAINTAINER = Liwhy
+RISING_MAINTAINER="Liwhy"
+RISING_CHIPSET="MTK6893"
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GMS := true
 TARGET_CORE_GMS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="MediaTek Dimensity 1200" \
+    RisingChipset="MTK6893" \
     RisingMaintainer="Liwhy"
 
 # Device identifier. This must come after all inclusions.
