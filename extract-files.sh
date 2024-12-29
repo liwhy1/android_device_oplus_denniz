@@ -40,7 +40,7 @@ function blob_fixup {
             "$PATCHELF" --replace-needed libutils.so libutils_v32.so "$2"
             ;;
         vendor/bin/hw/camerahalserver)
-            "${PATCHELF}" --replace-needed "libutils.so" "libutils_v32.so" "${2}"
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v31.so" "${2}"
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder_v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase_v32.so" "${2}"
             ;;
