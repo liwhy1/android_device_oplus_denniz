@@ -16,6 +16,8 @@
 
 DEVICE_PATH := device/oplus/denniz
 
+TARGET_2ND_ARCH_VARIANT := armv8-2a
+
 # Inherit from oplus mt6893-common
 include device/oplus/mt6893-common/BoardConfigCommon.mk
 
