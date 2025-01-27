@@ -19,6 +19,9 @@ DEVICE_PATH := device/oplus/denniz
 # Inherit from ossi device
 $(call inherit-product, device/oplus/mt6893-common/common.mk)
 
+# Call proprietary blob setup
+$(call inherit-product-if-exists, packages/apps/OneplusParts/parts.mk)
+
 # Alert slider
 PRODUCT_PACKAGES += \
     alert-slider_daemon
