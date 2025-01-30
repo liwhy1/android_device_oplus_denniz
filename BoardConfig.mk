@@ -28,9 +28,6 @@ TARGET_OTA_ASSERT_DEVICE := denniz,OP515BL1
 TARGET_KERNEL_CONFIG := denniz_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/devices/virtual/oplus_chg/battery/mmi_charging_enable
-
 # Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     kheaders.ko \
