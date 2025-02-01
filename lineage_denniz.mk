@@ -27,29 +27,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_SYSTEM_NAME := denniz
 PRODUCT_SYSTEM_DEVICE := denniz
 
-# RisingOS Flags
+# EvolutionX Flags
+EVO_BUILD_TYPE := Unofficial
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_ENABLE_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_HAS_UDFPS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# GMS
-WITH_GMS := true
-TARGET_CORE_GMS := false
-TARGET_CORE_GMS_EXTRAS := false
-
-# Maintainer
-RISING_MAINTAINER := Liwhy
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    SystemName=denniz \
-    SystemDevice=denniz \
-    RisingChipset="Dimensity 1200" \
-    RisingMaintainer="Liwhy"
-
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_denniz
