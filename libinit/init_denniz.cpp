@@ -15,6 +15,4 @@ void vendor_load_properties() {
         property_override("ro.adb.secure.recovery", "0");
         property_override("persist.sys.usb.config", "adb");
     }
-	property_override("ro.rising.maintainer", "Liwhy");
-    property_override("ro.rising.chipset", "Dimensity 1200");
 }
