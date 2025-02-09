@@ -19,8 +19,9 @@ DEVICE_PATH := device/oplus/denniz
 # Inherit from ossi device
 $(call inherit-product, device/oplus/mt6893-common/common.mk)
 
-# Call proprietary blob setup
-$(call inherit-product-if-exists, packages/apps/OneplusParts/parts.mk)
+# Inherit several Android Go Configurations (Beneficial for everyone, even on non-Go devices)
+PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 
 # Alert slider
 PRODUCT_PACKAGES += \
@@ -33,7 +34,6 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDenniz \
-    SettingsProviderOverlayDenniz \
     WifiOverlayDenniz
 
 # Inherit from vendor blobs
