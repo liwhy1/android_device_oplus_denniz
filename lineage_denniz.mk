@@ -24,6 +24,9 @@ $(call inherit-product, device/oplus/denniz/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# OMX
+TARGET_SUPPORTS_OMX_SERVICE := false
+
 PRODUCT_SYSTEM_NAME := denniz
 PRODUCT_SYSTEM_DEVICE := denniz
 
