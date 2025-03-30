@@ -28,8 +28,7 @@ $(call inherit-product-if-exists, device/oplus/camera/camera.mk)
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
+    alert-slider_daemon
 
 # MTK InCallService
 PRODUCT_PACKAGES += \
