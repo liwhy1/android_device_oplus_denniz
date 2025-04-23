@@ -25,12 +25,11 @@ include device/oplus/mt6893-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := denniz,OP515BL1
 
 # Kernel
-TARGET_KERNEL_CONFIG := denniz_defconfig
+TARGET_KERNEL_CONFIG := cupida_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
-    kheaders.ko \
     lcd.ko \
     tcp_westwood.ko
 
