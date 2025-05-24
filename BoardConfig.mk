@@ -31,7 +31,6 @@ TARGET_KERNEL_CONFIG := cupida_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_denniz
 TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
 
 # Vibrator
