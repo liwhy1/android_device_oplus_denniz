@@ -236,7 +236,7 @@ odm/lib/libRbsFlow.so
 odm/lib/libRbsFlow_cap.so
 odm/lib/libVDExternal.so
 odm/lib/libWaterMark.so
-odm/lib/libYTCommon.so
+odm/lib/libYTCommon.so;MODULE_SUFFIX=_odm
 odm/lib/lib_rectify.so
 odm/lib/libaiboost_sr.so
 odm/lib/libaiseg.so
@@ -246,13 +246,13 @@ odm/lib/libapsexif.so
 odm/lib/libapsjpeg.so
 odm/lib/libapspng.so
 odm/lib/libc++_shared.so
-odm/lib/libcamera_core_hwi.so
+odm/lib/libcamera_core_hwi.so;MODULE_SUFFIX=_odm
 odm/lib/libhyperlapse.so
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
 odm/lib/libmindroid-app.so
 odm/lib/libmindroid-framework.so
-odm/lib/libmpbase.so
+odm/lib/libmpbase.so;MODULE_SUFFIX=_odm
 odm/lib/libmtk-subsys-service.so
 odm/lib/libnp-loader.so
 odm/lib/libocam_common.so;MODULE_SUFFIX=_odm
@@ -268,7 +268,7 @@ odm/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=_odm
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
-odm/lib64/libAlgoProcess.so
+odm/lib64/libAlgoProcess.so;MODULE_SUFFIX=_odm
 odm/lib64/libAncFilter.so
 odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumBokehPost.so
@@ -499,9 +499,9 @@ odm/lib64/libPolarrRender.so
 odm/lib64/libPreviewDecisionOld.so
 odm/lib64/libRbsFlow.so
 odm/lib64/libRbsFlow_cap.so
-odm/lib64/libSuperTextWrapper.so
+odm/lib64/libSuperTextWrapper.so;MODULE_SUFFIX=_odm
 odm/lib64/libVDBayerHDR.so
-odm/lib64/libVDBlurless.so
+odm/lib64/libVDBlurless.so;MODULE_SUFFIX=_odm
 odm/lib64/libVDDualCameraBlurlessAPI.so
 odm/lib64/libVDExternal.so
 odm/lib64/libVDPostureDetection.so
@@ -509,8 +509,8 @@ odm/lib64/libVDSuperPhotoAPI.so
 odm/lib64/libVDUpScale.so
 odm/lib64/libVideoEnhance.so
 odm/lib64/libWaterMark.so
-odm/lib64/libXDocProcessSDK.so
-odm/lib64/libYTCommon.so
+odm/lib64/libXDocProcessSDK.so;MODULE_SUFFIX=_odm
+odm/lib64/libYTCommon.so;MODULE_SUFFIX=_odm
 odm/lib64/lib_rectify.so
 odm/lib64/libaisal.so
 odm/lib64/libaisd.so
@@ -556,7 +556,7 @@ odm/lib64/libarcsoft_super_night_raw.so
 odm/lib64/libarcsoft_videoautozoom.so
 odm/lib64/libc++_shared.so
 odm/lib64/libcalibverifyW_T.so
-odm/lib64/libcamera_core_hwi.so
+odm/lib64/libcamera_core_hwi.so;MODULE_SUFFIX=_odm
 odm/lib64/libcvface_api.so
 odm/lib64/libhci_face_camera_api.so
 odm/lib64/libhyperlapse.so
@@ -567,13 +567,12 @@ odm/lib64/libmegface_rt_bokeh.so
 odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libml_util.so
-odm/lib64/libmpbase.so
+odm/lib64/libmpbase.so;MODULE_SUFFIX=_odm
 odm/lib64/libnp-loader.so
 odm/lib64/libocam_common.so;MODULE_SUFFIX=_odm
 odm/lib64/liboplus_platform_hwi.so;MODULE_SUFFIX=_odm
 odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
-odm/lib64/liboplus_platform_hwi.so
 odm/lib64/liboplusblur_capture_api.so
 odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
@@ -649,7 +648,6 @@ vendor/lib/libMtkOmxApeDec.so
 vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
 vendor/lib/libMtkSpeechEnh.so
-vendor/lib/libSQLiteModule_VER_ALL.so
 vendor/lib/libSonyIMX230PdafLibrary.so
 vendor/lib/libSonyIMX230PdafLibraryWrapper.so
 vendor/lib/libSonyIMX338PdafLibrary.so
@@ -728,7 +726,6 @@ vendor/lib/libfeature_3dnr.so
 vendor/lib/libfeature_eis.so
 vendor/lib/libfeature_fsc.so
 vendor/lib/libfeature_lmv.so
-vendor/lib/libfeature_rss.so
 vendor/lib/libfeatureiodrv_mem.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libmtkares.so
@@ -791,7 +788,7 @@ vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so
-vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so
+vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -820,7 +817,6 @@ vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
 vendor/lib64/lib3a.sensors.color.so
 vendor/lib64/lib3a.sensors.flicker.so
-vendor/lib64/libMtkOmxCore.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/libSonyIMX230PdafLibrary.so
 vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
@@ -1011,7 +1007,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
-vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Camera (IdxMgr)
