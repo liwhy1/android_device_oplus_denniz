@@ -250,6 +250,7 @@ odm/lib/libcamera_core_hwi.so;MODULE_SUFFIX=_odm
 odm/lib/libhyperlapse.so
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
+odm/lib/libstdc++.so;MODULE_SUFFIX=_odm
 odm/lib/libmindroid-app.so
 odm/lib/libmindroid-framework.so
 odm/lib/libmpbase.so;MODULE_SUFFIX=_odm
