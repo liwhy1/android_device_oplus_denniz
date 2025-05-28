@@ -30,9 +30,6 @@ TARGET_OTA_ASSERT_DEVICE := denniz,OP515BL1
 TARGET_KERNEL_CONFIG := cupida_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# Init
-TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
-
 # Vibrator
 TARGET_VIBRATOR_ALT_SEQ_TYPE := true
 
