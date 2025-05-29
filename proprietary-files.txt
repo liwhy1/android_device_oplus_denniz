@@ -585,6 +585,7 @@ odm/lib64/libui.so:odm/lib64/libui_oplus.so
 odm/lib64/libvideoautozoom.arcsoft.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_odm
+system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
 system_ext/lib/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib/vendor.oplus.hardware.commondcs@1.0.so
 system_ext/lib64/libHeifEncoderWrapper.so
