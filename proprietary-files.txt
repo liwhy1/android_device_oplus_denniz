@@ -785,7 +785,6 @@ vendor/lib/liboplus_audio_config.so
 vendor/lib/liboplus_mtkcam_lightsensorprovider.so
 vendor/lib/liboplus_platform_hwi.so
 vendor/lib/libstereoinfoaccessor_vsdof.so
-vendor/lib/libmp3dec_mtk.so
 vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
