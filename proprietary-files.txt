@@ -292,6 +292,7 @@ odm/lib64/libCipParameter6.so
 odm/lib64/libCipParameter7.so
 odm/lib64/libCipo_awb.so
 odm/lib64/libDeVIS.so
+odm/lib64/libdla_loader_ins.so
 odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
 odm/lib64/libFaceBeautyCap.so
