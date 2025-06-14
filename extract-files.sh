@@ -27,7 +27,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}"/../../..
 
-HELPER="${ANDROID_ROOT}/tools/extract-utils-old/extract_utils.sh"
+HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -40,7 +40,7 @@ function blob_fixup {
             "$PATCHELF" --replace-needed libutils.so libutils_v32.so "$2"
             ;;
         vendor/bin/hw/camerahalserver)
-            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v31.so" "${2}"
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils_v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder_v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase_v32.so" "${2}"
             ;;
@@ -66,6 +66,7 @@ SECTION=
 KANG=
 
 while [ "${#}" -gt 0 ]; do
+sed -i -E '/^[^#[:space:]]/ s|;?DISABLE_DEPS||g; /^[^#[:space:]]/ { /[.]apk/! s|([^;|[:space:]]+)(\|.*)?|\1;DISABLE_DEPS\2| }' "${MY_DIR}/proprietary-files.txt"
     case "${1}" in
         -n | --no-cleanup )
                 CLEAN_VENDOR=false
@@ -95,3 +96,5 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
 bash "${MY_DIR}/setup-makefiles.sh"
+
+sed -i -E 's|;?DISABLE_DEPS||g' "${MY_DIR}/proprietary-files.txt"
