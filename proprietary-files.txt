@@ -503,7 +503,6 @@ vendor/lib64/libmtkcutils.so
 vendor/lib64/libmtkhardware_legacy.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtklimiter_vendor.so
-vendor/lib64/libmtkmipc-ril.so
 vendor/lib64/libmtknetcap.so
 vendor/lib64/libmtknetutils.so
 vendor/lib64/libmtkproperty.so
