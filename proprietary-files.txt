@@ -10,7 +10,7 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
 -odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
-odm/lib/libstdc++.so;MODULE_SUFFIX=_odm
+odm/lib/libstdc++.so
 odm/lib/libmindroid-app.so
 odm/lib/libmindroid-framework.so
 odm/lib/libmtk-subsys-service.so
@@ -219,7 +219,7 @@ odm/lib64/libFilterWrapper.so
 odm/lib64/libOGLManager.so
 odm/lib64/libRbsFlow.so
 odm/lib64/libRbsFlow_cap.so
-odm/lib64/libSuperTextWrapper.so;MODULE_SUFFIX=_odm
+odm/lib64/libSuperTextWrapper.so
 odm/lib64/libVideoEnhance.so
 odm/lib64/libWaterMark.so
 odm/lib64/lib_rectify.so
@@ -236,7 +236,7 @@ odm/lib64/liblvimfs_wrapper.so
 odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libml_util.so
-odm/lib64/libmpbase.so;MODULE_SUFFIX=_odm
+odm/lib64/libmpbase.so
 odm/lib64/libnp-loader.so
 odm/lib64/libocam_common.so;MODULE_SUFFIX=_odm
 odm/lib64/liboplus_platform_hwi.so;MODULE_SUFFIX=_odm
@@ -286,7 +286,7 @@ vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so
-vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -499,7 +499,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
-vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Camera (IdxMgr)
