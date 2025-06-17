@@ -11,11 +11,6 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
 odm/lib/libstdc++.so
-odm/lib/libmindroid-app.so
-odm/lib/libmindroid-framework.so
-odm/lib/libmtk-subsys-service.so
-odm/lib/libnp-loader.so
-odm/lib/libtfavib.so
 odm/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=_odm
