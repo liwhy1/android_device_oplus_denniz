@@ -23,10 +23,6 @@ $(call inherit-product, device/oplus/mt6893-common/common.mk)
 PRODUCT_PACKAGES += \
     alert-slider_daemon
 
-# MTK InCallService
-PRODUCT_PACKAGES += \
-    MtkInCallService
-
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDenniz \
