@@ -288,6 +288,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
+vendor/lib64/libperfctl_vendor.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
 vendor/lib64/lib3a.ae.stat.so
