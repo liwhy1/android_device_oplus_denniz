@@ -10,7 +10,7 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
 -odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
-odm/lib/libstdc++.so
+odm/lib/libstdc++.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=_odm
@@ -288,6 +288,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
+vendor/lib64/libperfctl_vendor.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
 vendor/lib64/lib3a.ae.stat.so
