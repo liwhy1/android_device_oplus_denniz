@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.systemuioverlay.denniz">
+
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.systemui"
                    android:isStatic="true"

@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.settingsoverlay.denniz">
+
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.settings"
                    android:isStatic="true"
